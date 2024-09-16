@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Tour Booking Form</h1>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="First Name" placeholder="First Name">
+                    <input type="text" name="Last Name" placeholder="Last Name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="Email" placeholder="name@mail.ru">
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="### ### ####">
+                </div>
+                <div>
+                    <label for="visit">When are you planning to visit?</label>
+                    <input type="date" name="visit" id="visit">
+                </div>
+                <div>
+                    <label for="people">How many people are in the group?</label>
+                    <input type="number" name="people" id="people">
+                </div>
+                <div>
+                    <label for="tour">Which tour are you most interested in?</label>
+                    <select name="tour" id="tour">
+                            <option value="" selected disabled>*Please Select*</option>
+                            <option value="">USA</option>
+                            <option value="">Germany</option>
+                            <option value="">Kazakhstan</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <p>What is the best way to contact you?</p>
+                    <div>
+                        <input type="checkbox" name="contact1" id="contact1">
+                        <label for="contact1">Phone</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  name="contact2" id="contact2">
+                        <label for="contact2">Email</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="contact1" id="contact3">
+                        <label for="contact3">Either</label>
+                    </div>
+                </div>
+
+                <div>
+                    <p>If phone, when is the best time of day for a call-back?</p>
+                    <div>
+                        <input type="radio" name="time_visit" id="time1">
+                        <label for="time1">8-11 AM</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="time_visit" id="time2">
+                        <label for="time2">12-4 PM</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="time_visit" id="time3">
+                        <label for="time3">6-10 PM</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="info">Anything else we should know?</label>
+                        <textarea name="info" id="info"></textarea>
+                </div>
+
+                <div>
+                    <button type="Submit">Send</button>
+                </div>
+            </form>
+
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.two{
+    max-width: 900px;
+    min-width: 700px;
+    margin: auto;
+}
+.three{
+    width: 50%;
+    border: 2px solid;
+}
+div{
+    width: 80%;
+    border: 2px solid;
+}
+/* Единицы измерения  em и rem */
+/* 1em = 20px * 1 */
+/* 0.5em * 20px = 10px */
+/* 1.5em * 20px = 30px */
+/* 1.5em * 10px = 15px */
+
+
+.one-level{
+    /* font-size: 2em; */
+    font-size: 2rem;
+
+}
+
+.two-level{
+    font-size: 3rem;
+
+
+}
+
+
+
+.box{
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+}
+.box-one{
+    border: 2px solid;
+    width: 50%;
+    height: 200px;
+}
+.box-two{
+    border: 2px solid;
+    width: 50vw;
+    height: 200px;
+}
+
+.box-size{
+    width: 300px ;
+    height: 300px;
+    border: 5px solid;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.not-box-size{
+    width: 300px ;
+    height: 300px;
+    border: 5px solid;
+    padding: 50px;
+}

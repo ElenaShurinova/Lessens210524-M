@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container { 
+  position: relative; 
+  width: 600px; /* Ширина контейнера для размещения трех квадратов */ 
+  height: 600px; /* Высота контейнера для размещения трех квадратов */ 
+}
+.square { 
+  width: 200px; 
+  height: 200px; 
+  position: absolute; 
+} 
+.red { 
+  background-color: red; 
+  top: 0; 
+  left: 0; 
+} 
+.green { 
+  background-color: green; 
+  top: 50px; /* Смещение на 200px от верхнего края контейнера */ 
+  left: 50px; /* Смещение на 200px от левого края контейнера */ 
+  z-index: 1;
+  transition: width 0.3s, height 0.3s, transform 3s; /* Анимация при изменении размера */ 
+} 
+.blue { 
+  background-color: blue; 
+  top: 100px; /* Смещение на 400px от верхнего края контейнера */ 
+  left: 100px; /* Смещение на 400px от левого края контейнера */ 
+}
+.green:hover { 
+  width: 300px; /* Изменение ширины при наведении курсора */ 
+  height: 300px; /* Изменение высоты при наведении курсора */ 
+  transform: rotate(-45deg); /* Поворот на 45 градусов против часовой стрелки при наведении курсора */ 
+}

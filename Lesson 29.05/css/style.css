@@ -1,0 +1,39 @@
+.list{
+    list-style-type: armenian;
+    list-style-type: circle;
+    list-style-type: decimal;
+    list-style-position: outside;
+    list-style-image: url(./Image20240529112942.png);
+    border: 2px solid black;
+}
+
+/* td{
+    width: 30px;
+    height: 30px;
+    
+} */
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+/* td{
+    width: 100px;
+    height: 100px;
+
+} */
+span{
+    font-size: 5px;
+}
+tr:first-child{
+    background-color: blue;
+}
+
+tr:last-child{
+    background-color: blueviolet;
+}
+
+tr:nth-child(3),
+tr:nth-child(4){
+    background-color: cadetblue;
+}

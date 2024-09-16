@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    height: 600px;
+
+    border: 2px solid;
+    margin:50px ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;/*пробелы вокруг*/
+    justify-content: space-between;/*пробелы между*/
+    justify-content: space-evenly;/*отступы*/
+
+    align-items:center ;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    align-items: start;
+
+    flex-wrap: nowrap;/*не переходит на новую строчку*/
+    flex-wrap: wrap;/*переходит на новую строчку**/
+    flex-wrap: wrap-reverse;/*обратный счет*/
+    
+
+}
+.flex_item{
+    background-color: brown;
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}

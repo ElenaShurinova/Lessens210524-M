@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blueviolet;
+    background-color: aqua;
+
+}
+img{
+    width: 500px;
+}
+
+p{
+    /*размер шрифта*/
+    font-size: 10px;
+    /*стиль шрифта*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*жирность*/
+    font-weight: 1000;
+     /*курсив*/
+    font-style: italic;
+}
+a{
+    background-color: blue;
+}
+
+.hobby{
+    background-color: brown;
+    /*обрамление,рамка*/
+    border-width: 3px;border-style: dashed;
+    border-color: black;
+    /*короткая запись*/
+    /*border: 10px solid black;*/
+    /*округление границ*/
+    /*border-radius: 0px;*/
+     /*округление границ если хотим только с одной или двух сторон*/
+     border-top-left-radius: 50px;
+     margin: 100px;/*отступ со всех сторон*/
+     margin: 100px 50px;/*100=вверх низ 50=право лево*/
+     margin: 100px 50px 20px;/*100=вверх низ 50=право лево 20=низ*/
+     margin: 20px 25px 35px 40px;/*20=вверх  25=право  35=низ лево=40*/
+
+
+    /* границы по бокам*/
+    /*border-top: ; /* границы вверху*/
+    /*border-left: ;
+    border-right: ;
+    border-bottom: ; /* границы внизу*/
+    /* внутренний отступ*/
+    padding: 100px;
+
+    
+
+}
+.arbeit{
+    background-color: chartreuse;
+
+}
+
+
+.soc{
+    border: 5px solid black;
+    margin: 100px;
+    padding: 50px;
+}
+
+.soc a{
+    margin-left: 100px;
+}
+.img{
+    width: 50px;
+}

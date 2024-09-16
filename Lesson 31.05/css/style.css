@@ -1,0 +1,25 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse; /*как двойные рамки вокруг убирает*/
+}
+td, th{
+    border: 1px solid black;
+}
+
+.zweite_table{
+    margin: 15px;
+}
+.zweite_table td{
+    padding: 10px;
+}
+
+ul, ol{
+    padding-left: 40px;
+    margin: 16px 0;
+}
+/* ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: lower-roman;
+} */

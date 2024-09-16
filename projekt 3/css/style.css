@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 312px;
+    width: 1920px;
+    align-items: center;
+}
+
+.soc ul{
+    display: flex;
+    justify-content: space-between;
+    width: 264px;
+    list-style: none;
+}
+
+main{
+    width: 1920px;
+    margin: 0 auto;
+    padding: 29.31px 309px 57px 315px;
+    background-color: #4FBFA5;
+}
+main ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1016px;
+}
+main a{
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+main nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn button{
+    margin-left: 85px;
+    padding: 10px 51px 11px;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.28px;
+    text-align: left;
+}
+.content{
+    display: flex;
+    margin-top: 45px;
+}
+
+.content-descript{
+    margin: 133px 133px 134px 0;
+
+}
+.content-descript h1{
+    font-family: ABeeZee;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.content-descript p{
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.content-descript button{
+    background-color:  #00868A;
+    padding:15px 25px 14px;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.28px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+   text-transform: uppercase;
+
+}
+
+section{
+    padding: 146px 312px 128px;
+}
+section h2{
+    font-family: ABeeZee;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 60px;
+    color:  #00868A;
+    
+}
+.section-card{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-card-item{
+    width: 306px;
+    height: 344px;
+}
+
+.section-card-item img{
+    object-fit:cover ;
+}
+
+.item-lamp{
+
+    display: flex;
+    background-color: #00868A;
+    padding: 25px 30px;
+}
+.item-lamp p{
+    background-color: #00868A;
+    font-family: ABeeZee;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31.5px;
+    text-align: left;
+    color: white;
+}
+footer{
+    width: 1920px;
+    padding: 0 312px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 31px;
+}
+
+
+    
+
+

@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+header{
+    margin: 0 auto;
+    max-width: 1520px;
+    padding: 28px 198px 29px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 43px;
+    width: 671px;
+    list-style: none;
+
+}
+
+header a{
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #222222;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1520px;
+    padding: 140px 198px;
+    background:  #EBEBEB;
+}
+
+main h3{
+    
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33.12px;
+    text-align: left;
+    color:  #BDBDBD;
+    margin-bottom: 40px;
+}
+
+main h2{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69.39px;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 102px;
+
+
+}
+
+.main-card{
+    width: 1110px;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-item{
+    width: 350px;
+    height: 360px;
+    background-image: url(../img/Rectangle\ 2.png);
+    padding: 261px 118px 45px 45px;
+
+}
+
+.card-item:hover{
+    background-image: url(../img/Re\ 2\ \(1\).png);
+}
+.card-item p{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30.24px;
+    text-align: left;
+    background: #FFFFFF;
+
+}
+
+section{
+    margin: 0 auto;
+    width: 1520px;
+    padding:140px 217px 131px 181px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.description{
+    width: 555px;
+    padding-right: 125px;
+}
+
+.description h2 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33.12px;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.description h3{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69.39px;
+    text-align: left;
+
+}
+.description span{
+    color: #005fa3; 
+}
+.description p{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24.84px;
+    text-align: left;
+
+}
+.section-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 540px;
+    width: 530px;
+}
+.section-card-item{
+    background: #EBEBEB;
+    width: 255px;
+    height:255px ;
+    padding: 30px 108px 40px 30px;
+
+}
+.section-card-item h2{
+    font-family: Lato;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-bottom: 30px;
+
+
+}
+
+.section-card-item p{
+
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 18.48px;
+    text-align: left;
+    font-weight: 700px;
+    margin-bottom: 47px;
+
+
+}
+.section-card-item a{
+
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: left;
+    font-weight: 700px;
+    color: #005fa3;
+    
+    }
+    .section-card-item:hover{
+        background-color: #005fa3;
+    }
+
+    .section-card-item:hover p,
+    .section-card-item:hover h2,
+    .section-card-item:hover a{
+        color: #FFFFFF;
+    }
+
+    footer{
+      
+
+    }
+
+    .footer-first{
+        max-width: 1920px;
+        background-image: url(../img/back.png);
+        padding: 122px 405px 140px 407px;
+        margin: 0 auto;
+        display: flex;
+        color: #FFFFFF;
+    }
+
+    .footer-contact h2{
+        font-family: Merriweather;
+        font-size: 48px;
+        line-height: 69.39px;
+        text-align: left;
+
+    }
+    .footer-contact p{
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24.84px;
+        text-align: left;
+        margin: 60px 0 80px;
+
+    }
+
+    .contact-link a:first-child{
+        font-family: Lato;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 28.98px;
+        text-align: left;
+        margin:0 40px 0 35px;
+        margin-left: 15px;
+
+    }
+    .name{
+        display: flex;
+        margin-bottom: 35px;
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 22.08px;
+        text-align: left;
+
+
+
+
+    }
+    .name label{
+        width: 255px;
+
+    }
+
+    .name label:last-child {
+        margin-left: 30px;
+
+    }
+
+    
+    .name input{
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        color: white;
+    }
+
+    .name input::placeholder{
+        font-family: Lato;
+        font-size: 21px;
+        line-height: 28.98px;
+        text-align: left;
+
+    }
+
+    .footer-form h2{
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 22.08px;
+        text-align: left;
+
+    }
+
+    textarea{
+        width: 100%;
+        height: 120px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        border-bottom: 1px solid white;
+        resize:none;
+        max-width: 540px;
+    }
+    textarea::placeholder{ 
+        font-family: Lato;
+        font-size: 21px;
+        line-height: 28.98px;
+        text-align: left;
+        padding-top: 15px;
+
+
+    }
+    button{
+        background-color:  #005FA3;
+        color: white;
+        font-family: Lato;
+        font-size: 18px;
+        line-height: 24.84px;
+        text-align: center;
+        padding: 19px 18px;
+        width: 270px;
+        height: 60px;
+        margin-left: 270px;
+        margin-top: 50px;
+
+    }
+
+    .footer-last{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        width: 1512px;
+        margin: 0 auto;
+        padding: 67px 205px 72px 199px ;
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 19.32px;
+        text-align: left;
+
+    }
+
+    
+
+
+
+
+
+

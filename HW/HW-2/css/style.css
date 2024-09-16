@@ -1,0 +1,16 @@
+table,th,td{
+    border-width: 1px;
+    border-style:solid ;
+    border-color: #000;
+    
+}
+th:first-child{
+    width: 120px;
+}
+
+
+img{
+    width:50px ;
+    margin: 0 3px;
+    /* display: block; */
+}

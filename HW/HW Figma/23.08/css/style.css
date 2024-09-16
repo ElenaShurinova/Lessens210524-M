@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 100%;
+
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.topHeaderRow {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+.headerContent {
+    background-color: #605957;
+    flex-grow: 1;
+}
